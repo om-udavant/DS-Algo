@@ -2,7 +2,7 @@ package geeksforgeeks.arrays.rotation;
 
 import java.util.Arrays;
 
-public class Q_002_RightRotation {
+public class Q_004_RightRotation {
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
