@@ -1,6 +1,6 @@
 package geeksforgeeks.arrays.rotation;
 
-public class Q_003_SearchInSortedAndRotatedArray {
+public class Q_005_SearchInSortedAndRotatedArray {
 
     public static void main(String args[])
     {
