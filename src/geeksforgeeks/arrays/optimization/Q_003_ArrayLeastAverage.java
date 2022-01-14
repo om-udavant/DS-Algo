@@ -11,9 +11,9 @@ public class Q_003_ArrayLeastAverage {
 
     private static void findMinAvgSubarray(int[] arr, int n, int k) {
 
-//        if(n < k){
-//            return;
-//        }
+        if(n < k){
+            return;
+        }
 
         int res_index = 0;
         int curr_sum = 0;
