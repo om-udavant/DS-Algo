@@ -1,6 +1,10 @@
 package geeksforgeeks.arrays.sorting;
 
+// Java program to Merge an array of
+// size n into another array of size m + n
+
 public class Q_005_MergeTwoArray {
+
     public static void main(String[] args){
         int mPlusN[] = { 2, 8, -1, -1, -1, 13, -1, 15, 20 };
         int N[] = { 5, 7, 9, 25 };
