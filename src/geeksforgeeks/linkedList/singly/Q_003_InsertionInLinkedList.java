@@ -1,8 +1,6 @@
 package geeksforgeeks.linkedList.singly;
 
-import java.util.LinkedList;
-
-public class Q_002_InsertionInLinkedList {
+public class Q_003_InsertionInLinkedList {
 
     Node head;
 
@@ -17,7 +15,7 @@ public class Q_002_InsertionInLinkedList {
     }
 
     public static void main(String[] args){
-        Q_002_InsertionInLinkedList llist = new Q_002_InsertionInLinkedList();
+        Q_003_InsertionInLinkedList llist = new Q_003_InsertionInLinkedList();
 
         llist.end(1);
         llist.front(2);
