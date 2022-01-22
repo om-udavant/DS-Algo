@@ -1,5 +1,7 @@
 package geeksforgeeks.linkedList.singly;
 
+// Java program to count number of nodes in a linked list
+
 public class Q_007_LengthOfLinkedList {
 
     Node head;
