@@ -2,7 +2,7 @@ package geeksforgeeks.stack.standardProblems;
 
 import java.util.Stack;
 
-public class Q_001_InfixToPostfixExpression {
+public class Q_001_InfixToPostfixConversion {
 
     public static void main(String[] args){
         String exp = "a+b*(c^d-e)^(f+g*h)-i";
@@ -57,6 +57,7 @@ public class Q_001_InfixToPostfixExpression {
                 return 2;
 
             case '^':
+            case '%':
                 return 3;
         }
         return -1;
