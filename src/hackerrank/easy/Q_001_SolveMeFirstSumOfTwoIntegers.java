@@ -1,5 +1,6 @@
 package hackerrank.easy;
 
+
 import java.util.Scanner;
 
 //Complete the function solveMeFirst to compute the sum of two integers.
