@@ -3,10 +3,6 @@ package hackerrank.easy;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
-
-import static java.util.stream.Collectors.toList;
 
 public class Q_005_DiagonalDifference {
 
@@ -18,7 +14,6 @@ public class Q_005_DiagonalDifference {
      */
 
     public static int diagonalDifference(List<List<Integer>> arr) {
-        // Write your code here
 
         int leftdiagonal = 0, rightdiagonal = 0;
         for(int i = 0, j = arr.get(0).size()-1; i < arr.get(0).size(); i++, j--){
