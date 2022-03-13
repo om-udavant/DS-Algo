@@ -2,7 +2,7 @@ package geeksforgeeks.searching.searchAlgorithums;
 
 public class Q_002_RecursiveBinarySearch {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int[] arr = {2, 3, 4, 10, 40};
         int n = arr.length;
         int find = 10;
@@ -16,14 +16,14 @@ public class Q_002_RecursiveBinarySearch {
 
     private static int binarySearch(int[] arr, int l, int r, int find) {
 
-        if(r >= l){
-            int mid = l + (r-l) / 2;
+        if (r >= l) {
+            int mid = l + (r - l) / 2;
 
-            if (arr[mid] == find){
+            if (arr[mid] == find) {
                 return mid;
             }
 
-            if (arr[mid] > find){
+            if (arr[mid] > find) {
                 return binarySearch(arr, l, mid - 1, find);
             }
 
