@@ -24,35 +24,21 @@ public class Q_013_NumberLineJumps {
      */
 
     public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-
-        System.out.println("Enter the postion of first kangaroo ");
-        int x1 = Integer.parseInt(bufferedReader.readLine());
-
-        System.out.println("No of steps jumped by first kangaroo");
-        int v1 = Integer.parseInt(bufferedReader.readLine());
-
-        System.out.println("Enter the postion of second kangaroo ");
-        int x2 = Integer.parseInt(bufferedReader.readLine());
-
-        System.out.println("No of steps jumped by second kangaroo");
-        int v2 = Integer.parseInt(bufferedReader.readLine());
-
-        String result = kangaroo(x1, v1, x2, v2);
+        String result = kangaroo(4, 5, 6, 7);
         System.out.println(result);
 
-        bufferedReader.close();
+        String result2 = kangaroo(7, 5, 6, 7);
+        System.out.println(result2);
     }
 
     private static String kangaroo(int x1, int v1, int x2, int v2) {
 
-        if(x1 < x2){
-            if(v1 <= v2){
+        if (x1 < x2) {
+            if (v1 <= v2) {
                 return "NO";
-            }
-            else{
-                while(x1 <= x2){
-                    if(x1 == x2){
+            } else {
+                while (x1 <= x2) {
+                    if (x1 == x2) {
                         return "YES";
                     }
 
@@ -62,14 +48,12 @@ public class Q_013_NumberLineJumps {
 
                 return "NO";
             }
-        }
-        else{
-            if(v2 <= v1){
+        } else {
+            if (v2 <= v1) {
                 return "NO";
-            }
-            else{
-                while(x2 <= x1){
-                    if(x1 == x2){
+            } else {
+                while (x2 <= x1) {
+                    if (x1 == x2) {
                         return "YES";
                     }
 
