@@ -3,7 +3,7 @@ package hackerrank.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Q_015_SubArrayDivision {
+public class Q_016_SubArrayDivision {
 
     /*
      * Complete the 'birthday' function below.
