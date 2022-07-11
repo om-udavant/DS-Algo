@@ -34,12 +34,12 @@ public class Q_016_SubArrayDivision {
 
         int d = 4, m = 2;
 
-        int result = breakingRecords(s, d, m);
+        int result = subArray(s, d, m);
 
         System.out.println(result);
     }
 
-    private static int breakingRecords(List<Integer> s, int d, int m) {
+    private static int subArray(List<Integer> s, int d, int m) {
         int count = 0;
 
         for (int i = 0; i <= s.size() - m; i++) {
