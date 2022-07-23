@@ -1,6 +1,6 @@
 package hackerrank.easy;
 
-public class Q_024_CatsAndMouse {
+public class Q_025_CatsAndMouse {
 
     /*
      *

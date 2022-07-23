@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.easy;
 
 public class Q_024_ElectronicsShop {
 
