@@ -24,7 +24,7 @@ public class Q_010_AVLTreeWithDuplicate {
         root = insert(root, 7);
         root = insert(root, 17);
 
-        System.out.println("Pre Order traversal of the contructed AVL tree is");
+        System.out.println("\nPre Order traversal of the contructed AVL tree is");
         preOrder(root);
 
         deleteNode(root, 9);
