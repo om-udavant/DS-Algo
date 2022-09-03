@@ -3,7 +3,7 @@ package hackerrank.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Q_Q048_BeautifulTriplets {
+public class Q_048_BeautifulTriplets {
 
     /*
      * Complete the 'beautifulTriplets' function below.

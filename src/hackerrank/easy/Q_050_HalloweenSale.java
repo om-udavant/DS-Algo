@@ -1,6 +1,6 @@
 package hackerrank.easy;
 
-public class Q_049_HalloweenSale {
+public class Q_050_HalloweenSale {
 
     /*
      * Complete the 'howManyGames' function below.
