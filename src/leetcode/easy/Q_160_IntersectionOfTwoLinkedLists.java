@@ -2,6 +2,14 @@ package leetcode.easy;
 
 public class Q_160_IntersectionOfTwoLinkedLists {
 
+    /*
+     *
+     * Given the heads of two singly linked-lists headA and headB,
+     * return the node at which the two lists intersect.
+     * If the two linked lists have no intersection at all, return null.
+     *
+     * */
+
     public class ListNode {
         int val;
         ListNode next;
