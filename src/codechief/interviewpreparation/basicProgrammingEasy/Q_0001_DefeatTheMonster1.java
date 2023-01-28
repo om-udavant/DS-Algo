@@ -1,4 +1,4 @@
-package codechief.interviewpreparation;
+package codechief.interviewpreparation.basicProgrammingEasy;
 
 import java.util.Scanner;
 
