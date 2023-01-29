@@ -2,7 +2,7 @@ package codechief.interviewpreparation.basicProgrammingEasy;
 
 import java.util.Scanner;
 
-public class Q_0001_DefeatTheMonster1 {
+public class Q_001_DefeatTheMonster1 {
 
     /*
      * Problem Code:MONSTER1

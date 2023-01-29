@@ -3,7 +3,7 @@ package codechief.interviewpreparation.basicProgrammingEasy;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q_0002_AttackOnKingdom {
+public class Q_002_AttackOnKingdom {
 
     /*
      * Problem Code:KNGATK
