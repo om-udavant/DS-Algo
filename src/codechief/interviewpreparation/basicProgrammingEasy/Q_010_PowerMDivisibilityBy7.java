@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Q_010_PowerMDivisibilityBy7 {
 
     /*
-     * Problem Code: PMD7
+     * Problem Code : PMD7
      *
      */
 
